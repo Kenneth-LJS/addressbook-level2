@@ -27,4 +27,10 @@ public class HelpCommand extends Command {
                 + "\n" + ExitCommand.MESSAGE_USAGE
         );
     }
+
+    
+	@Override
+	public boolean isMutating() {
+		return false;
+	}
 }
